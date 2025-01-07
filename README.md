@@ -34,8 +34,8 @@ Follow these steps to run the application locally:
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone 
-   cd my-ai
+   git clone https://github.com/VISHALNAYAK183/AI_Project.git
+   cd Vishal_ai
    ```
 
 2. Install dependencies:
