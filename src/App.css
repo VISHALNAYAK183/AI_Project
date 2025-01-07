@@ -1,0 +1,143 @@
+/* Container Styles */
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 1.5rem;
+}
+
+/* Title and Subtitle */
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1rem;
+  color: #555;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Upload Section */
+.uploadSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* File Label */
+.fileLabel {
+  background-color: #0066cc;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.fileLabel:hover {
+  background-color: #005bb5;
+}
+
+.fileInput {
+  display: none;
+}
+
+/* Divider */
+.divider {
+  text-align: center;
+  font-size: 1rem;
+  color: #888;
+  margin: 1rem 0;
+}
+
+/* Primary and Secondary Buttons */
+.primaryButton {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.primaryButton:hover {
+  background-color: #005bb5;
+}
+
+.primaryButton.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.secondaryButton {
+  background-color: #e53935;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.secondaryButton:hover {
+  background-color: #d32f2f;
+}
+
+/* Chat Section */
+.chatContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.chatBox {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 5px;
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+}
+
+.userMessage {
+  align-self: flex-start;
+  background-color: #e0e0e0;
+  padding: 0.8rem;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.botMessage {
+  align-self: flex-end;
+  background-color: #c8e6c9;
+  padding: 0.8rem;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+/* Input Section */
+.inputContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.input {
+  flex: 1;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.input:focus {
+  border-color: #0066cc;
+  outline: none;
+}
